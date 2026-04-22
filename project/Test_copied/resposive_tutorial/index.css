@@ -1,0 +1,92 @@
+/* REST DEFAULT*/
+*{
+  margin: 0;
+  padding: 0;
+} 
+/* Logo style */
+.logo{
+  font-size: 1.5rem;
+  color: white;
+}
+/* Navbar Styling */
+ nav{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+nav::before{
+  content:'';
+  background-color: black;
+  opacity: 0.4;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+ }
+ 
+nav ul{
+  display: flex;
+  margin: 20px 20px;
+}
+nav ul li{
+  margin: 0px 20px;
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover{
+  background-color: white;
+  /* width: 5px; */
+  /* height: auto; */
+  color: black;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+/* Home Section */
+#home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:500px;
+}
+#home::before{
+  content:' ';
+  position: absolute;
+  background: url("/img/bg.png") no-repeat center center/cover;
+  opacity: 0.8;
+  width: 100%;
+  height: %;
+  z-index: -1;
+}
+#home h1{
+  /* font-size: ; */
+  /* color: white; */
+  text-align: center;
+}
+#home p{
+  text-align: center;
+  font-size: 1.2rem;
+}
+.btn{
+  padding: 20px;
+  margin: 35px 0px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: blue;
+  border: 3px solid blue;
+  border-radius:20px;
+}
+.btn:hover{
+  background-color: green;
+  color: white;
+  border: green;
+}
+.primary{
+  font-size:3rem;
+  padding: 20px;
+  
+}
